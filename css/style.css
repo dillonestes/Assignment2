@@ -1,0 +1,125 @@
+/* Heading font */
+@font-face {
+    font-family: 'bebasregular';
+    src: url('../fonts/bebas_regular_macroman/BEBAS___-webfont.eot');
+    src: url('../fonts/bebas_regular_macroman/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/bebas_regular_macroman/BEBAS___-webfont.woff') format('woff'),
+url('../fonts/bebas_regular_macroman/BEBAS___-webfont.ttf') format('truetype'),
+url('../fonts/bebas_regular_macroman/BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Elements */
+body {
+	background: #333333;
+	font: 12px Arial, Tahoma, sans-serif;
+	color: #222;
+	margin: 50px;
+}
+h1, h2, h3 {
+	font-family: "bebasregular" !important;
+	word-spacing: 5px;
+}
+p {
+	line-height: 25px;
+	font-size: 14px;
+	text-indent: 15px;
+}
+h2:first-of-type {
+	margin-top: 0;
+}
+section {
+	padding: 0 0 30px;
+}
+header h1 { 
+	font-size: 50px;
+	font-weight: normal;
+	margin: 15px 0;
+	color: #588034;
+	text-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+figcaption {
+	font-style: italic;
+	font-size: 13px; 
+	color: #777;
+	margin: 15px 0 0 0;
+}
+blockquote {
+	font-size: 13px;
+	background: #588034;
+	color: #fff;
+	padding: 30px 15px;
+	margin: 20px;
+}
+blockquote a {
+	color: #eee !important;
+	text-decoration: underline;
+}
+blockquote a:hover {
+	color: #030 !important;
+}
+aside p {
+	margin-left: 30px;
+	font-size: 13px;
+}
+
+/* ID Selectors */
+#container {
+	margin: 0 auto;
+	width: 60%;
+	background: #eee;
+	color: #333;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,.5);
+	box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+#navigation {
+	width: 25%;
+	float: left;
+	text-align: right;
+	font-size: 15px;
+}
+#navigation ul {
+	list-style: none;
+} 
+#navigation ul li {
+	line-height: 30px;
+}
+#navigation ul li a:link {
+	display: block;
+	line-height: 30px;
+	color: #588034;
+	text-decoration: none;
+	padding: 0 10px;
+}
+#navigation ul li a:hover {
+	background: #333;
+	color: #eee !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#navigation ul li a:visited {
+	color: #333;
+}
+#content {
+	width: 65%;
+	margin-left: 25%;
+}
+#content a {
+	color: #588034;
+}
+#container div {
+	padding: 20px;
+}
+
+/* Classes */
+.image img {
+	width: 100%;
+	height: auto;
+}
